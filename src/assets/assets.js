@@ -8,8 +8,7 @@ import menu_3 from './menu_3.png'
 import menu_4 from './menu_4.png'
 import menu_5 from './menu_5.png'
 import menu_6 from './menu_6.png'
-import menu_7 from './menu_7.png'
-import menu_8 from './menu_8.png'
+
 
 import item_1 from './item_1.png'
 import item_2 from './item_2.png'
@@ -84,11 +83,11 @@ export const assets = {
 
 export const menu_list = [
     {
-        menu_name: "Crops",
+        menu_name: "Seeds and Saplings",
         menu_image: menu_1
     },
     {
-        menu_name: "Animal Product",
+        menu_name: "Farming tools",
         menu_image: menu_2
     },
     {
@@ -96,255 +95,244 @@ export const menu_list = [
         menu_image: menu_3
     },
     {
-        menu_name: "Processed food",
+        menu_name: "Millets",
         menu_image: menu_4
     },
     {
-        menu_name: "non-crops",
+        menu_name: "Fresh Fruits and Vegetables",
         menu_image: menu_5
     },
     {
-        menu_name: "Fisheries",
+        menu_name: "Honey and Dairy products",
         menu_image: menu_6
-    },
-    {
-        menu_name: "Poultry",
-        menu_image: menu_7
-    },
-    {
-        menu_name: "Speciality crops",
-        menu_image: menu_8
-    }]
-
-export const item_list = [
-    {
-        id: "1",
-        name: "apple",
-        image: item_1,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Crops"
-    },
-    {
-        id: "2",
-        name: "potato",
-        image: item_2,
-        price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Crops"
-    }, {
-        id: "3",
-        name: "rice",
-        image: item_3,
-        price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Crops"
-    }, {
-        id: "4",
-        name: "tumeric",
-        image: item_4,
-        price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Crops"
-    }, {
-        id: "5",
-        name: "Milk",
-        image: item_5,
-        price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Animal Product"
-    }, {
-        id: "6",
-        name: "Honey",
-        image: item_6,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Animal Product"
-    }, {
-        id: "7",
-        name: "Egg",
-        image: item_7,
-        price: 20,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Animal Product"
-    }, {
-        id: "8",
-        name: "Butter",
-        image: item_8,
-        price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Animal Product"
-    }, {
-        id: "9",
-        name: "Organic Fertilizer",
-        image: item_9,
-        price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Fertilizer"
-    }, {
-        id: "10",
-        name: "Worm-based fertilizer",
-        image: item_10,
-        price: 22,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Fertilizer"
-    }, {
-        id: "11",
-        name: "Manure",
-        image: item_11,
-        price: 10,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Fertilizer"
-    }, {
-        id: "12",
-        name: "Soil amendment",
-        image: item_12,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Fertilizer"
-    },
-    {
-        id: "13",
-        name: "Pickles",
-        image: item_13,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Processed food"
-    },
-    {
-        id: "14",
-        name: "Bread",
-        image: item_14,
-        price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Processed food"
-    }, {
-        id: "15",
-        name: "Cookies",
-        image: item_15,
-        price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Processed food"
-    }, {
-        id: "16",
-        name: "Jams",
-        image: item_16,
-        price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Processed food"
-    }, {
-        id: "17",
-        name: "Flower Bouquets",
-        image: item_17,
-        price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "non-crops"
-    }, {
-        id: "18",
-        name: "Cotton",
-        image: item_18,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "non-crops"
-    }, {
-        id: "19",
-        name: "Sugarcane",
-        image: item_19,
-        price: 20,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "non-crops"
-    }, {
-        id: "20",
-        name: "Jute",
-        image: item_20,
-        price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "non-crops"
-    }, {
-        id: "21",
-        name: "Catfish",
-        image: item_21,
-        price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Fisheries"
-    }, {
-        id: "22",
-        name: "Prawns",
-        image: item_22,
-        price: 22,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Fisheries"
-    }, {
-        id: "23",
-        name: "Seaweed",
-        image: item_23,
-        price: 10,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Fisheries"
-    }, {
-        id: "24",
-        name: "Algae",
-        image: item_24,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Fisheries"
-    },
-    {
-        id: "25",
-        name: "duck",
-        image: item_25,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Poultry"
-    },
-    {
-        id: "26",
-        name: "Chicken",
-        image: item_26,
-        price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Poultry"
-    }, {
-        id: "27",
-        name: "Meet",
-        image: item_27,
-        price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Poultry"
-    }, {
-        id: "28",
-        name: "Fertilized egg",
-        image: item_28,
-        price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Poultry"
-    }, {
-        id: "29",
-        name: "Aloe Vera",
-        image: item_29,
-        price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Speciality crops"
-    }, {
-        id: "30",
-        name: "Tulsi",
-        image: item_30,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Speciality crops"
-    }, {
-        id: "31",
-        name: "Neem",
-        image: item_31,
-        price: 20,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Speciality crops"
-    }, {
-        id: "32",
-        name: " Broccoli",
-        image: item_32,
-        price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Speciality crops"
     }
-]
+    ]
+
+    export const item_list = [
+        {
+            _id: "1",
+            name: "Tomato Seeds",
+            image: item_1,
+            price: 350,
+            description: "High-quality tomato seeds for a healthy harvest.",
+            category: "Seeds and Saplings"
+        },
+        {
+            _id: "2",
+            name: "Rose Saplings",
+            image: item_2,
+            price: 250,
+            description: "Well-nurtured rose saplings to beautify your garden.",
+            category: "Seeds and Saplings"
+        },
+        {
+            _id: "3",
+            name: "Sunflower Seeds",
+            image: item_3,
+            price: 450,
+            description: "Premium sunflower seeds for bright and beautiful flowers.",
+            category: "Seeds and Saplings"
+        },
+        {
+            _id: "4",
+            name: "Jasmine Seeds",
+            image: item_4,
+            price: 360,
+            description: "Aromatic jasmine seeds to enhance your home's fragrance.",
+            category: "Seeds and Saplings"
+        },
+        {
+            _id: "5",
+            name: "Aloevera Plant",
+            image: item_5,
+            price: 380,
+            description: "Medicinal aloe vera plant, perfect for skincare and wellness.",
+            category: "Seeds and Saplings"
+        },
+        {
+            _id: "6",
+            name: "Filter",
+            image: item_6,
+            price: 2500,
+            description: "High-quality agricultural filter designed for efficient water filtration in irrigation systems",
+            category: "Farming tools"
+        },
+        {
+            _id: "7",
+            name: "Water Pipes",
+            image: item_7,
+            price: 1200,
+            description: "Durable, high-quality irrigation pipes for efficient water distribution.",
+            category: "Farming tools"
+        },
+        {
+            _id: "8",
+            name: "Drip Irrigation",
+            image: item_8,
+            price: 5000,
+            description: "Advanced drip irrigation system for water-saving and efficient farming.",
+            category: "Farming tools"
+        },
+        {
+            _id: "9",
+            name: "Harvesting Knives",
+            image: item_9,
+            price: 150,
+            description: "Sharp and sturdy knives for easy and effective crop harvesting.",
+            category: "Farming tools"
+        },
+        {
+            _id: "10",
+            name: "Worm-based Fertilizer",
+            image: item_10,
+            price: 600,
+            description: "Organic vermicompost fertilizer to enhance soil fertility naturally.",
+            category: "Fertilizer"
+        },
+        {
+            _id: "11",
+            name: "Manure",
+            image: item_11,
+            price: 300,
+            description: "Rich, organic manure to improve soil health and plant growth.",
+            category: "Fertilizer"
+        },
+        {
+            _id: "12",
+            name: "Soil Amendment",
+            image: item_12,
+            price: 400,
+            description: "Effective soil conditioner to enhance crop yield and plant nutrition.",
+            category: "Fertilizer"
+        },
+        {
+            _id: "13",
+            name: "Soil Testing Kit",
+            image: item_13,
+            price: 1200,
+            description: "Easy-to-use kit to test soil health and nutrient levels.",
+            category: "Fertilizer"
+        },
+        {
+            _id: "14",
+            name: "Ragi",
+            image: item_14,
+            price: 80,
+            description: "Nutrient-rich ragi, perfect for healthy and gluten-free meals.",
+            category: "Millets"
+        },
+        {
+            _id: "15",
+            name: "Bajra",
+            image: item_15,
+            price: 70,
+            description: "Organic pearl millet, rich in fiber and essential nutrients.",
+            category: "Millets"
+        },
+        {
+            _id: "16",
+            name: "Jowar",
+            image: item_16,
+            price: 85,
+            description: "Wholesome and gluten-free sorghum grain for balanced nutrition.",
+            category: "Millets"
+        },
+        {
+            _id: "17",
+            name: "Flour",
+            image: item_17,
+            price: 60,
+            description: "Freshly ground whole wheat flour for soft and healthy rotis.",
+            category: "Millets"
+        },
+        {
+            _id: "18",
+            name: "Poha",
+            image: item_18,
+            price: 55,
+            description: "Light and easily digestible flattened rice, _ideal for breakfast.",
+            category: "Millets"
+        },
+        {
+            _id: "19",
+            name: "Tomato",
+            image: item_19,
+            price: 40,
+            description: "Farm-fresh, juicy tomatoes for cooking and salads.",
+            category: "Fresh Fruits and Vegetables"
+        },
+        {
+            _id: "20",
+            name: "Banana",
+            image: item_20,
+            price: 60,
+            description: "Naturally sweet, energy-packed bananas for a healthy snack.",
+            category: "Fresh Fruits and Vegetables"
+        },
+        {
+            _id: "21",
+            name: "Apple",
+            image: item_21,
+            price: 200,
+            description: "Crisp and delicious apples packed with vitamins and fiber.",
+            category: "Fresh Fruits and Vegetables"
+        },
+        {
+            _id: "22",
+            name: "Orange",
+            image: item_22,
+            price: 120,
+            description: "Fresh, juicy oranges rich in vitamin C for immunity boost.",
+            category: "Fresh Fruits and Vegetables"
+        },
+        {
+            _id: "23",
+            name: "Brinjal",
+            image: item_23,
+            price: 35,
+            description: "Fresh and organic brinjals with a rich taste for cooking.",
+            category: "Fresh Fruits and Vegetables"
+        },
+        {
+            _id: "24",
+            name: "Paneer",
+            image: item_24,
+            price: 350,
+            description: "Soft, fresh paneer made from pure milk, perfect for Indian dishes.",
+            category: "Honey and Dairy products"
+        },
+        {
+            _id: "25",
+            name: "Cheese",
+            image: item_25,
+            price: 400,
+            description: "Creamy and flavorful cheese, great for sandwiches and recipes.",
+            category: "Honey and Dairy products"
+        },
+        {
+            _id: "26",
+            name: "Milk",
+            image: item_26,
+            price: 60,
+            description: "Fresh, pure cow milk, rich in calcium and essential nutrients.",
+            category: "Honey and Dairy products"
+        },
+        {
+            _id: "27",
+            name: "Honey",
+            image: item_27,
+            price: 250,
+            description: "Raw, unfiltered honey, packed with natural sweetness and health benefits.",
+            category: "Honey and Dairy products"
+        },
+        {
+            _id: "28",
+            name: "Dry Fruit Honey",
+            image: item_28,
+            price: 450,
+            description: "Premium honey infused with nutritious dry fruits for extra energy.",
+            category: "Honey and Dairy products"
+        }
+    ];
+    
+    
